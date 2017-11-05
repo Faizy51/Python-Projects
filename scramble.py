@@ -1,3 +1,9 @@
+'''
+The script takes input from file "input.txt" and scrambles all the words in it.
+scrambling is done in a way that all the apostropes are preserved and only the letters are scrambled.
+The output is stored into file named "output.txt"
+'''
+
 import random
 import string
 import re
