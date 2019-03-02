@@ -6,9 +6,9 @@ driver = webdriver.Firefox()
 
 driver.get("https://www.freshersworld.com/user/my-callletter")
 user = driver.find_element_by_id('emailview')
-user.send_keys('faizulla49g@gmail.com')
+user.send_keys('yourEmail@gmail.com')
 password = driver.find_element_by_id('passwordview')
-password.send_keys('freshersworld')
+password.send_keys('yourPasswordHere')
 login = driver.find_element_by_css_selector('#loginSubmitView')
 url = driver.current_url
 login.click()
