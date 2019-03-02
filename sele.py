@@ -16,7 +16,7 @@ if url == driver.current_url:
     login.click()
 time.sleep(10)
 
-
+# For repeating the process after every 5 seconds.
 while True:
     time.sleep(5)
     driver.get("https://www.freshersworld.com/user/my-callletter")
